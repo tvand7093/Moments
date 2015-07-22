@@ -3,7 +3,7 @@ solution: "Moments - XAML/Moments.sln"
 mon:
   - latest
 install:
-  - nuget restore Moments.sln
+  - nuget restore "Moments - XAML/Moments.sln"
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release "Moments - XAML/Moments.sln"

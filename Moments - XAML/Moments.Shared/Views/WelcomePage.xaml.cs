@@ -22,7 +22,13 @@ namespace Moments
 
 		private void SetupEventHandlers ()
 		{
+			signUpButton.Clicked += (object sender, EventArgs e) => {
+				Navigation.PushModalAsync (new SignUpPage ());
+			};
 
+			signInButton.Clicked += (object sender, EventArgs e) => {
+				Navigation.PushModalAsync (new SignInPage ());
+			};
 		}
 	}
 }

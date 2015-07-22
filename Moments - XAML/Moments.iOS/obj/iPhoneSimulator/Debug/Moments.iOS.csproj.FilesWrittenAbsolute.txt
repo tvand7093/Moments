@@ -78,3 +78,7 @@
 /Users/pierceboggan/Desktop/GitHub/Moments/Moments - XAML/Moments.iOS/bin/iPhoneSimulator/Debug/SQLitePCL.raw.dll
 /Users/pierceboggan/Desktop/GitHub/Moments/Moments - XAML/Moments.iOS/obj/iPhoneSimulator/Debug/Moments.iOS.App.xaml
 /Users/pierceboggan/Desktop/GitHub/Moments/Moments - XAML/Moments.iOS/obj/iPhoneSimulator/Debug/App.xaml.g.cs
+/Users/pierceboggan/Desktop/GitHub/Moments/Moments - XAML/Moments.iOS/obj/iPhoneSimulator/Debug/Moments.iOS.Views.SignInPage.xaml
+/Users/pierceboggan/Desktop/GitHub/Moments/Moments - XAML/Moments.iOS/obj/iPhoneSimulator/Debug/SignInPage.xaml.g.cs
+/Users/pierceboggan/Desktop/GitHub/Moments/Moments - XAML/Moments.iOS/obj/iPhoneSimulator/Debug/Moments.iOS.Views.SignUpPage.xaml
+/Users/pierceboggan/Desktop/GitHub/Moments/Moments - XAML/Moments.iOS/obj/iPhoneSimulator/Debug/SignUpPage.xaml.g.cs

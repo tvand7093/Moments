@@ -14,8 +14,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SignInViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\BasePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\CameraPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\SignInPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\SignUpPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Colors.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Account.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Moment.cs" />
@@ -66,12 +64,17 @@
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Fonts.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Setup.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\ConnectivityService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\WelcomePages.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\WelcomePage.xaml.cs">
       <DependentUpon>WelcomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SignInPage.xaml.cs">
+      <DependentUpon>SignInPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SignUpPage.xaml.cs">
+      <DependentUpon>SignUpPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +92,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\SignInPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\SignUpPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

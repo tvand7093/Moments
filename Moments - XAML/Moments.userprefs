@@ -1,9 +1,17 @@
-﻿<Properties StartupItem="Moments.iOS/Moments.iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Moments.iOS/Pages/CameraPage.cs">
+﻿<Properties StartupItem="Moments.Tests/Moments.Tests.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Moments.Tests/Services/GravatarServiceTests.cs">
     <Files>
-      <File FileName="Moments.iOS/Pages/CameraPage.cs" Line="8" Column="20" />
+      <File FileName="Moments.Tests/Services/GravatarServiceTests.cs" Line="17" Column="31" />
+      <File FileName="Moments.Shared/Services/GravatarService.cs" Line="17" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="Moments" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

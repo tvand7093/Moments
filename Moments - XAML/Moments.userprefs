@@ -1,14 +1,33 @@
 ﻿<Properties StartupItem="Moments.Tests/Moments.Tests.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Moments.Tests/Services/GravatarServiceTests.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Test" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Moments.Tests/ViewModels/BaseViewModelTests.cs">
     <Files>
-      <File FileName="Moments.Tests/Services/GravatarServiceTests.cs" Line="17" Column="31" />
-      <File FileName="Moments.Shared/Services/GravatarService.cs" Line="17" Column="1" />
+      <File FileName="Moments.Tests/ViewModels/BaseViewModelTests.cs" Line="7" Column="35" />
+      <File FileName="Moments.Shared/ViewModels/BaseViewModel.cs" Line="61" Column="25" />
+      <File FileName="Moments.Shared/ViewModels/SignUpViewModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Moments" expanded="True">
+            <Node name="Moments" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="Moments.Tests" expanded="True" selected="True">
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State name="__root__">
-          <Node name="Moments" expanded="True" selected="True" />
+          <Node name="Moments" expanded="True">
+            <Node name="Moments.Tests" expanded="True">
+              <Node name="Moments" expanded="True" selected="True">
+                <Node name="Tests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

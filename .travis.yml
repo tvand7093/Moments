@@ -1,10 +1,10 @@
 language: csharp
-solution: Moments.sln
+solution: "Moments - XAML/Moments.sln"
 mon:
   - latest
 install:
   - nuget restore Moments.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Release Moments.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Moments.Tests/bin/Release/Moments.Tests.dll
+  - xbuild /p:Configuration=Release "Moments - XAML/Moments.sln"
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe "./Moments - XAML/Moments.Tests/bin/Release/Moments.Tests.dll"

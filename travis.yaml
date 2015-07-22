@@ -1,0 +1,10 @@
+language: csharp
+solution: Moments.sln
+mon:
+  - latest
+install:
+  - nuget restore Moments.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release Moments.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Moments.Tests/bin/Release/Moments.Tests.dll

@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Moments.iOS/Moments.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Moments.iOS/Pages/CameraPage.cs">
+    <Files>
+      <File FileName="Moments.iOS/Pages/CameraPage.cs" Line="8" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

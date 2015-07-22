@@ -3,7 +3,6 @@ solution: "Moments - XAML/Moments.sln"
 mon:
   - latest
 install:
-  - nuget  update --self
   - nuget restore "Moments - XAML/Moments.sln"
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:

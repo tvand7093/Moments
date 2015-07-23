@@ -30,14 +30,17 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FriendRequestsViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SendMomentViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\SendMomentPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AddFriendViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FriendRequestsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SendMomentViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\MomentCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\SendMomentCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\MomentsPicker.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\FriendRequestCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ViewMomentViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\ViewMomentPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Helpers\MD5.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\MomentsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\MD5.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Images.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Keys.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Friendship.cs" />
@@ -76,6 +79,37 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\SignUpPage.xaml.cs">
       <DependentUpon>SignUpPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AddFriendPage.xaml.cs">
+      <DependentUpon>AddFriendPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CameraPage.xaml.cs">
+      <DependentUpon>CameraPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\BasePage.xaml.cs">
+      <DependentUpon>BasePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ViewMomentPage.xaml.cs">
+      <DependentUpon>ViewMomentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SendMomentPage.xaml.cs">
+      <DependentUpon>SendMomentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FriendsPage.xaml.cs">
+      <DependentUpon>FriendsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MomentsPage.xaml.cs">
+      <DependentUpon>MomentsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FriendRequestsPage.xaml.cs">
+      <DependentUpon>FriendRequestsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ProfilePage.xaml.cs">
+      <DependentUpon>ProfilePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ProfileViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />
@@ -98,6 +132,36 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\SignUpPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AddFriendPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\CameraPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\BasePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ViewMomentPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\SendMomentPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AboutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FriendsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MomentsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FriendRequestsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ProfilePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

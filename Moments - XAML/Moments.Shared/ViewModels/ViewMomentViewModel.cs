@@ -6,16 +6,16 @@ namespace Moments
 {
 	public class ViewMomentViewModel : BaseViewModel
 	{
-		Uri image;
+		string image;
 		TimeSpan momentViewTime;
 
 		public ViewMomentViewModel (string momentUrl, TimeSpan viewTime)
 		{
-			image = new Uri (momentUrl);
+			image = momentUrl;
 			momentViewTime = viewTime;
 		}
 
-		public Uri Image
+		public string Image
 		{
 			get { return image; }
 		}

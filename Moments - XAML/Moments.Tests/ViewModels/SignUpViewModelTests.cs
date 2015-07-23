@@ -8,7 +8,7 @@ namespace Moments.Tests.ViewModels
 	public class SignUpViewModelTests
 	{
 		[Test]
-		public SignUpViewModelTests ()
+		public void test ()
 		{
 		}
 	}

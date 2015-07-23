@@ -12,8 +12,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\MomentsEntry.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SignInViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\BasePage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\CameraPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Colors.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Account.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Moment.cs" />
@@ -23,13 +21,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\RoundedRectangleImage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\FriendCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FriendsViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\FriendsPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\AddFriendPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AddFriendViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\FriendRequestsPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FriendRequestsViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SendMomentViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\SendMomentPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AddFriendViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FriendRequestsViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SendMomentViewModel.cs" />
@@ -38,8 +32,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Controls\MomentsPicker.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controls\FriendRequestCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ViewMomentViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\ViewMomentPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\MomentsPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\MD5.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Images.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Keys.cs" />
@@ -58,8 +50,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ObservableExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Strings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\MomentService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\ProfilePage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\Info.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\WebPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\DialogService.cs" />

@@ -168,7 +168,6 @@
     <Compile Include="Services\HashServiceTests.cs" />
     <Compile Include="ViewModels\BaseViewModelTests.cs" />
     <Compile Include="ViewModels\ViewMomentViewModelTests.cs" />
-    <Compile Include="ViewModels\SignUpViewModelTests.cs" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
